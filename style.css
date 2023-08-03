@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10758,4 +10759,34 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/* custom classes */
+.header {
+  display: flex;
+  background-color: #7550fe;
+  justify-content: space-around;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonCont {
+  display: flex;
+}
+
+.col {
+  display: flex;
+}
+
+.iconBox {
+  width: 45px;
+  height: 45px;
+  background-color: #ffeeda;
+  color: #c28141;
+  font-size: large;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5%;
 }/*# sourceMappingURL=style.css.map */

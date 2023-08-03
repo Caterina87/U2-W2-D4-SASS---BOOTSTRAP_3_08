@@ -1,1 +1,28 @@
 @import "bootstrap-overrides";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+
+/* custom classes */
+.header {
+  display: flex;
+  background-color: #7550fe;
+  justify-content: space-around;
+}
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+}
+.buttonCont {
+  display: flex;
+}
+.col {
+  display: flex;
+}
+.iconBox {
+  width: 45px;
+  height: 45px;
+  background-color: #ffeeda;
+  color: #c28141;
+  font-size: large;
+  text-align: center;
+  padding: 5%;
+}
